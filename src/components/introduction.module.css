@@ -1,0 +1,17 @@
+@import "../styling/variables.css";
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 64px 0px;
+  font-family: var(--brandSecondaryFont);
+}
+
+.heading {
+}
+
+.subHeading span {
+  color: var(--brandSecondaryColor);
+}

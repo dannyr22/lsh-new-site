@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+:root {
+  /* ------ Colors ------ */
+  --darkColor: #3d415f;
+  --darkestColor: #191e3a;
+  --accentColor: #f8f5f3;
+
+  --highlightColor: #e4fae0;
+
+  --greenHighlightColor: #4feeab;
+  --yellowHighlightColor: #fcf072;
+  --purpleHighlightColor: #fc72e2;
+
+  --textColorDark: #000;
+  --textColorLight: #fff;
+  --textColorGreenHighlight: #72d599;
+  --textColorBlueHighlight: #293fdd;
+
+  --textColorLightGrey: #d0d0d0;
+
+  --borderColor: #dbdbdb;
+
+  --articleHighlight: #25b0ff;
+  --buttonColor: #161a29;
+  --pulsePurple: #0e0638;
+
+  --brandColor: #98e9d1;
+  --brandSecondaryColor: #1d3550;
+
+  --sectionColor: #f9fcf6;
+
+  /* ------ Font ------ */
+  --brandFont: "Lato", sans-serif;
+  --brandSecondaryFont: "Dancing Script", cursive;
+  --copyFont: Montserrat, Arial, sans-serif;
+  --serifFont: Bitter;
+
+  --copyFontLight: 300;
+  --copyFontHeavy: 400;
+
+  --subTitleFontSize: 27px;
+  --bigTitleMobile: 55px;
+  --bigTitle: 72px;
+
+  --fontSizeMini: 12px;
+  --fontSizeSmall: 14px;
+  --fontSizeMedium: 16px;
+  --fontSizeXM: 28px;
+  --fontSizeLarge: 32px;
+  --fontSizeXL: 40px;
+
+  /* ------ Spacing ------ */
+  --spacingSide: 64px;
+  --spacingSideMobile: 40px;
+  --spacingSideMobileSmall: 25px;
+
+  --spacingMini: 8px;
+  --spacingSmall: 16px;
+  --spacingMedium: 24px;
+  --spacingLarge: 32px;
+
+  --contentMaxWidth: 75%;
+  --contentMaxWidthPx: 1200px;
+  --contentMaxWidthSmallPx: 950px;
+}

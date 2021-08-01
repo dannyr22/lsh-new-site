@@ -1,6 +1,9 @@
+@import "../styling/variables.css";
+
 .navBar {
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -31,7 +34,7 @@
 
 .navLinks {
   width: 70%;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .navList {

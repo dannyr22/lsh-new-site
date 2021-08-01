@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logo from "../images/letsstaylogonoBackground.png"
-import * as styles from "./header.module.css"
+import * as styles from "src/components/header.module.css"
 
 const Header = ({ siteTitle }) => (
   <header

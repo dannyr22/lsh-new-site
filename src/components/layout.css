@@ -594,8 +594,18 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+}
+
+/* beginning of none gatsby boilerplate ------------------------------------------------------ */
+.mainContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

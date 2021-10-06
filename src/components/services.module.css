@@ -33,10 +33,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 .servicesInfo {
   margin-top: 1rem;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .servicesContainer {

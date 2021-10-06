@@ -48,4 +48,18 @@
 
 .navLink {
   text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: none;
+  padding-bottom: 4px;
+  /* text-decoration: none; */
+}
+
+.navLink a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navLink:hover {
+  font-weight: bold;
+  border-bottom: 1px solid;
 }

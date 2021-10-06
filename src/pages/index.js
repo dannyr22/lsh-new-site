@@ -5,6 +5,7 @@ import Services from "src/components/services"
 import About from "src/components/About.js"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Parallax from "src/components/Parallax"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,9 @@ const IndexPage = () => (
       </div>
       <div className="subSection">
         <About />
+      </div>
+      <div className="subSection">
+        <Parallax />
       </div>
     </div>
   </Layout>

@@ -1,0 +1,15 @@
+@import "../styling/variables.css";
+
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1610478920454-8df995a1d60a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

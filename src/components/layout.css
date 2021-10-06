@@ -614,3 +614,8 @@ pre tt:after {
 .subSection {
   margin: 24px 0px;
 }
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}

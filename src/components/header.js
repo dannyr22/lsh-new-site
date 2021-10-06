@@ -1,5 +1,4 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logo from "../images/letsstaylogonoBackground.png"
 import * as styles from "src/components/header.module.css"
@@ -22,23 +21,23 @@ const Header = ({ siteTitle }) => (
       </div>
       <div class={styles.navLinks}>
         <ul class={styles.navList}>
-          <li class={styles.navLink}>
+          {/* <li class={styles.navLink}>
             <Link to="/"></Link>What We Do
+          </li> */}
+          <li class={styles.navLink}>
+            <Link to="/cocktail-list">Cocktail List</Link>
           </li>
           <li class={styles.navLink}>
-            <Link to="/"></Link>Cocktail List
+            <Link to="/events">Events</Link>
           </li>
           <li class={styles.navLink}>
-            <Link to="/"></Link>Events
+            <Link to="/reviews">Reviews</Link>
           </li>
           <li class={styles.navLink}>
-            <Link to="/"></Link>Reviews
+            <Link to="/faqs">FAQ's</Link>
           </li>
           <li class={styles.navLink}>
-            <Link to="/"></Link>FAQ's
-          </li>
-          <li class={styles.navLink}>
-            <Link to="/"></Link>Contact Us
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>

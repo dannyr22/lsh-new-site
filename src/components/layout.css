@@ -21,7 +21,8 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: #fff;
-  color: #98e9d1;
+  color: #75b596;
+  /* color: #98e9d1; original color  */
 }
 article,
 aside,
@@ -608,4 +609,8 @@ pre tt:after {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.subSection {
+  margin: 24px 0px;
 }

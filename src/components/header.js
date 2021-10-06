@@ -14,7 +14,9 @@ const Header = ({ siteTitle }) => (
       <div class={styles.logo}>
         <div class={styles.logoWrapper}>
           <div class={styles.logoContainer}>
-            <img src={logo} />
+            <Link to="/">
+              <img src={logo} />
+            </Link>
           </div>
         </div>
       </div>
@@ -43,13 +45,5 @@ const Header = ({ siteTitle }) => (
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

@@ -1,6 +1,8 @@
 import * as React from "react"
 import * as styles from "src/components/services.module.css"
 import cocktails from "src/images/cocktails4.jpg"
+import event from "src/images/event.jpg"
+import bottle from "src/images/bottle.jpg"
 
 const Services = () => {
   return (
@@ -12,11 +14,25 @@ const Services = () => {
         <div class={styles.servicesIndividual}>
           <div class={styles.servicesImage}>
             <div class={styles.servicesImageWrapper}>
-              <img src={cocktails} />
+              <img src={bottle} />
             </div>
           </div>
           <div class={styles.servicesInfo}>
-            <h3>I am the services title</h3>
+            <h3>Cocktails Delivered</h3>
+            <p>
+              I am the services description, I know about the services, do you
+              want to know more?
+            </p>
+          </div>
+        </div>
+        <div class={styles.servicesIndividual}>
+          <div class={styles.servicesImage}>
+            <div class={styles.servicesImageWrapper}>
+              <img src={event} />
+            </div>
+          </div>
+          <div class={styles.servicesInfo}>
+            <h3>Hire a bar team</h3>
             <p>
               I am the services description, I know about the services, do you
               want to know more?
@@ -30,7 +46,7 @@ const Services = () => {
             </div>
           </div>
           <div class={styles.servicesInfo}>
-            <h3>I am the services title</h3>
+            <h3>Hire a Bar</h3>
             <p>
               I am the services description, I know about the services, do you
               want to know more?
@@ -44,21 +60,7 @@ const Services = () => {
             </div>
           </div>
           <div class={styles.servicesInfo}>
-            <h3>I am the services title</h3>
-            <p>
-              I am the services description, I know about the services, do you
-              want to know more?
-            </p>
-          </div>
-        </div>
-        <div class={styles.servicesIndividual}>
-          <div class={styles.servicesImage}>
-            <div class={styles.servicesImageWrapper}>
-              <img src={cocktails} />
-            </div>
-          </div>
-          <div class={styles.servicesInfo}>
-            <h3>I am the services title</h3>
+            <h3>Kilner Cocktails</h3>
             <p>
               I am the services description, I know about the services, do you
               want to know more?

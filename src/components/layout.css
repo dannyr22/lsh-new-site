@@ -1,4 +1,4 @@
-@import "../styling/variables.css";
+@import "src/styling/variables.css";
 
 html {
   -ms-text-size-adjust: 100%;
@@ -494,7 +494,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  /* margin-bottom: calc(1.45rem / 2); */
 }
 ol li {
   padding-left: 0;
@@ -603,12 +603,18 @@ pre tt:after {
 }
 
 /* beginning of none gatsby boilerplate ------------------------------------------------------ */
-.mainContent {
+.mainContent,
+.pageWidth {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.pageWidth {
+  max-width: 800px;
+  text-align: center;
 }
 
 .subSection {
@@ -618,4 +624,8 @@ pre tt:after {
 p {
   font-size: 18px;
   line-height: 1.4;
+}
+
+.pageTitle {
+  text-align: center;
 }

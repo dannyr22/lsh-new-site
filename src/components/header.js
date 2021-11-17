@@ -3,46 +3,58 @@ import { Link } from "gatsby"
 import logo from "../images/letsstaylogonoBackground.png"
 import * as styles from "src/components/header.module.css"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `white`,
-    }}
-  >
-    <div class={styles.navBar}>
-      <div class={styles.logo}>
-        <div class={styles.logoWrapper}>
-          <div class={styles.logoContainer}>
-            <Link to="/">
-              <img src={logo} />
-            </Link>
+const Header = ({ siteTitle }) => {
+  return (
+    <header
+      style={{
+        background: `white`,
+      }}
+    >
+      <div className={styles.navBar}>
+        <div className={styles.logo}>
+          <div className={styles.logoWrapper}>
+            <div className={styles.logoContainer}>
+              <Link to="/">
+                <img src={logo} />
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-      <div class={styles.navLinks}>
-        <ul class={styles.navList}>
-          {/* <li class={styles.navLink}>
-            <Link to="/"></Link>What We Do
+        <div className={styles.navLinks}>
+          <ul className={styles.navList}>
+            {/* <li class={styles.navLink}>
+            <Link to="/">Home</Link>
           </li> */}
-          <li class={styles.navLink}>
-            <Link to="/cocktail-list">Cocktail List</Link>
-          </li>
-          <li class={styles.navLink}>
-            <Link to="/events">Events</Link>
-          </li>
-          <li class={styles.navLink}>
-            <Link to="/reviews">Reviews</Link>
-          </li>
-          <li class={styles.navLink}>
-            <Link to="/faqs">FAQ's</Link>
-          </li>
-          <li class={styles.navLink}>
-            <Link to="/contact">Contact Us</Link>
-          </li>
-        </ul>
+            <li className={styles.navLink}>
+              <Link to="/cocktail-list" activeStyle={{ fontWeight: "bold" }}>
+                Cocktail List
+              </Link>
+            </li>
+            <li className={styles.navLink}>
+              <Link to="/events" activeStyle={{ fontWeight: "bold" }}>
+                Events
+              </Link>
+            </li>
+            <li className={styles.navLink}>
+              <Link to="/reviews" activeStyle={{ fontWeight: "bold" }}>
+                Reviews
+              </Link>
+            </li>
+            <li className={styles.navLink}>
+              <Link to="/faqs" activeStyle={{ fontWeight: "bold" }}>
+                FAQ's
+              </Link>
+            </li>
+            <li className={styles.navLink}>
+              <Link to="/contact" activeStyle={{ fontWeight: "bold" }}>
+                Contact Us
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </header>
-)
+    </header>
+  )
+}
 
 export default Header

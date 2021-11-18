@@ -34,6 +34,7 @@
 
 .navLinks {
   width: 70%;
+  display: none;
   /* margin-left: auto; */
 }
 
@@ -66,4 +67,10 @@
 
 .active {
   color: red;
+}
+
+@media (min-width: 768px) {
+  .navLinks {
+    display: block;
+  }
 }

@@ -6,30 +6,46 @@ const About = () => {
   return (
     <>
       <h2 class={styles.sectionTitle}>
-        About <span>Us</span>
+        What we<span> do</span>
       </h2>
       <div className={styles.aboutContainer}>
         <div className={styles.firstSection}>
           <div className={styles.textContainer}>
             <p>
-              Let's Stay Home was born out of necessity from the first lockdown
+              Let’s Stay Home is a local business delivering drinks for
+              spectacular days and nights in, celebrations and memorable gifts
+              for friends and family, with amazing fresh cocktails delivered
+              straight to your door.
             </p>
             <p>
-              After spending years running some of Londons best bars and
-              restaurants we then found ourselves without jobs and a bit bored.
-              To solve this we decided to do what we know best and that's make
-              cocktails
+              Our Let’s Stay Home bartenders are also available to run a
+              cocktail bar at your home, for everything from garden parties,
+              weddings, birthdays, christenings and anniversaries to social
+              drinks with friends. We can even supply a fully dressed bar with
+              self-serve cocktails in stunning glass kiln jars.
             </p>
             <p>
-              We started a fledgeling cocktail delivery service which has now
-              evolved into an events and catering service, and don't worry we
-              still deliver the goods. A year and a half later we're still
-              roaming around London providing much needed, high quality industry
-              standard cocktails, we have a portable bar that you can rent, we
-              have a Kilner package for when you don't need a bartender but
-              still want some tasty drinks or you can go for the whole schabang
-              and hire us, the bar and enjoy cocktails being shaken and stirred
-              all night long.
+              We also offer cocktail masterclasses so you can learn to shake,
+              mix and muddle your cocktail favourites. Perfect for hen parties
+              and birthdays, or even just something different for your weekend
+              plans.
+            </p>
+            <p>
+              Our service is available seven days a week throughout Sutton,
+              Epsom, Croydon, Carshalton, Coulsdon, Ashtead, Wallington, Purley,
+              Wimbledon and surrounding areas.
+            </p>
+            <p>
+              Same day delivery is available on all orders placed before 3pm.
+            </p>
+            <p>
+              We take care of all the measuring, shaking and juicing to deliver
+              ready to drink cocktails to you.
+            </p>
+            <p>
+              We regularly update our menus to utilize the freshest ingredients
+              we can get our hands on and are always up for the challenge of
+              designing a bespoke drink for you.
             </p>
           </div>
         </div>

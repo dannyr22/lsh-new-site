@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: var(--brandFont);
-  font-weight: normal;
+  font-weight: bold;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -628,4 +628,29 @@ p {
 
 .pageTitle {
   text-align: center;
+}
+
+/*events page --------------------------------------------------------------------------------------*/
+.popups {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
+
+.popup-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.popup-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

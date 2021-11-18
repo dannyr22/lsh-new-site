@@ -52,6 +52,7 @@ const Header = ({ siteTitle }) => {
             </li>
           </ul>
         </div>
+        <div>icon</div>
       </div>
     </header>
   )

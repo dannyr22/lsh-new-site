@@ -20,10 +20,7 @@ const Services = () => {
           </div>
           <div class={styles.servicesInfo}>
             <h3>Cocktails Delivered</h3>
-            <p>
-              I am the services description, I know about the services, do you
-              want to know more?
-            </p>
+            <p>Get London' best cocktails served straight to your door.</p>
           </div>
         </div>
         <div class={styles.servicesIndividual}>
@@ -33,10 +30,11 @@ const Services = () => {
             </div>
           </div>
           <div class={styles.servicesInfo}>
-            <h3>Hire a bar team</h3>
+            <h3>Mobile bar squad</h3>
             <p>
-              I am the services description, I know about the services, do you
-              want to know more?
+              Got a party and don't want to be restricted? Then hire our
+              fantastic team or just one of them and our great looking mobile
+              bar.
             </p>
           </div>
         </div>
@@ -47,10 +45,11 @@ const Services = () => {
             </div>
           </div>
           <div class={styles.servicesInfo}>
-            <h3>Hire a Bar</h3>
+            <h3>Cocktail masterclasses</h3>
             <p>
-              I am the services description, I know about the services, do you
-              want to know more?
+              If you're in need of a fun cocktail masterclass then give us a
+              call, we've got over 10 years worth of experience and a hell of a
+              lot of happy hens.
             </p>
           </div>
         </div>
@@ -63,8 +62,9 @@ const Services = () => {
           <div class={styles.servicesInfo}>
             <h3>Kilner Cocktails</h3>
             <p>
-              I am the services description, I know about the services, do you
-              want to know more?
+              Don't want all the faff of having staff or renting out a place but
+              you still just want nice drinks? We can supply you with our
+              fantastic drinks range in Kilner jars, ready fo when you are.
             </p>
           </div>
         </div>

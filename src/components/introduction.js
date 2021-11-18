@@ -7,9 +7,9 @@ const Introduction = () => {
     <>
       <div class={styles.introContainer}>
         <h1>Let's Stay Home</h1>
-        <h2 class={styles.subHeading}>
+        {/* <h2 class={styles.subHeading}>
           London's <span>Leading</span> Cocktail Delivery Service
-        </h2>
+        </h2> */}
       </div>
     </>
   )

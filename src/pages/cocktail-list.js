@@ -1,6 +1,6 @@
 import * as React from "react"
 import Cocktail from "src/components/Cocktail.js"
-import cocktailImage from "src/images/cocktails4.jpg"
+import freshCocktails from "src/images/fresh-cocktails.jpg"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -23,7 +23,7 @@ const CocktailList = () => {
           available, if you can’t see your usual favourite get in touch with us
           and we’re happy to make anything bespoke.
         </p>
-        <img src={cocktailImage} alt="cocktail" />
+        <img src={freshCocktails} alt="cocktail" />
         <Cocktail
           title="Community Spirit- £7/25"
           text="Vodka, Aperol, passionfruit liqueur, fresh lime juice, simple syrup and pineapple juice"

@@ -21,7 +21,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: #fff;
-  color: #75b596;
+  color: var(--fontColor);
   /* color: #98e9d1; original color  */
 }
 article,

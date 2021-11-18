@@ -1,6 +1,7 @@
 import * as React from "react"
 import * as styles from "src/components/services.module.css"
 import cocktails from "src/images/cocktails4.jpg"
+import kilner from "src/images/kilner.jpeg"
 import event from "src/images/event.jpg"
 import bottle from "src/images/bottle.jpg"
 
@@ -56,7 +57,7 @@ const Services = () => {
         <div class={styles.servicesIndividual}>
           <div class={styles.servicesImage}>
             <div class={styles.servicesImageWrapper}>
-              <img src={cocktails} />
+              <img src={kilner} />
             </div>
           </div>
           <div class={styles.servicesInfo}>

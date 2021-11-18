@@ -14,10 +14,10 @@ const IndexPage = () => (
     <div className="mainContent">
       <Introduction />
       <div className="subSection">
-        <Services />
+        <About />
       </div>
       <div className="subSection">
-        <About />
+        <Services />
       </div>
       <div className="subSection">
         <Parallax />

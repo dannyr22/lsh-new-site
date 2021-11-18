@@ -6,21 +6,18 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact-form" method="POST" data-netlify="true">
       <p>
-        <label>
-          Your Name: <input type="text" name="name" />
-        </label>
+        <input type="text" name="name" placeholder="name" />
       </p>
       <p>
-        <label>
-          Your Email: <input type="email" name="email" />
-        </label>
+        <input type="email" name="email" placeholder="email@example.com" />
       </p>
       <p>
-        <label>
-          Message: <textarea name="message"></textarea>
-        </label>
+        <textarea
+          name="message"
+          placeholder="Type your message here"
+        ></textarea>
       </p>
       <p>
         <button type="submit">Send</button>

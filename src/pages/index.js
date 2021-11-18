@@ -22,6 +22,23 @@ const IndexPage = () => (
       <div className="subSection">
         <Parallax />
       </div>
+      {/* <form name="contact-form" method="POST" data-netlify="true">
+        <p>
+          <input type="text" name="name" placeholder="name" />
+        </p>
+        <p>
+          <input type="email" name="email" placeholder="email@example.com" />
+        </p>
+        <p>
+          <textarea
+            name="message"
+            placeholder="Type your message here"
+          ></textarea>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form> */}
     </div>
   </Layout>
 )

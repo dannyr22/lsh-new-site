@@ -11,12 +11,11 @@ const SecondPage = () => (
     <form name="Contact Form" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="Contact Form" />
       <div>
-        <label>Your Email:</label>
-        <input type="email" name="email" />
+        <input type="text" name="name" placeholder="name" />
+        <input type="email" name="email" placeholer="email@example.com" />
       </div>
       <div>
-        <label>Message:</label>
-        <textarea name="message" />
+        <textarea name="message" placeholder="type your message here" />
       </div>
       <button type="submit">Send</button>
     </form>

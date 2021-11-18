@@ -10,7 +10,7 @@ import Parallax from "src/components/Parallax"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <HeroBanner />
+    {/* <HeroBanner /> */}
     <div className="mainContent">
       <Introduction />
       <div className="subSection">

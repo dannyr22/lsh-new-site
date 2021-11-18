@@ -6,7 +6,12 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <form name="contact-form" method="POST" data-netlify="true">
+    <form
+      name="contact-form"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
       <p>
         <input type="text" name="name" placeholder="name" />
       </p>

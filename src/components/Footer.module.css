@@ -1,0 +1,6 @@
+@import "src/styling/variables.css";
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+}

@@ -675,6 +675,7 @@ p {
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 10rem;
 }
 
 .contact-form input,

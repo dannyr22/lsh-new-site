@@ -6,10 +6,13 @@ const Footer = () => {
     <div className={styles.footerContainer}>
       <div className={styles.firstSide}>
         <div className={styles.info}>
-          Sutton, London, letsstayhome75@gmail.com
+          <p>Let's Stay Home Ltd,</p>
+          <p>Sutton,</p>
+          <p>London,</p>
+          <p>email: letsstayhome75@gmail.com</p>
         </div>
       </div>
-      <div className={styles.secondSide}>This is footer two</div>
+      {/* <div className={styles.secondSide}>This is footer two</div> */}
     </div>
   )
 }

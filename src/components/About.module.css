@@ -1,5 +1,9 @@
 @import "../styling/variables.css";
 
+.sectionTitle {
+  text-align: center;
+}
+
 .sectionTitle span {
   color: var(--brandSecondaryColor);
 }
@@ -11,10 +15,11 @@
 }
 
 .aboutContainer > div {
-  width: 40%;
+  width: 80%;
   padding: 24px 24px 24px 0px;
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
   /* align-items: center; */
 }
 
@@ -25,5 +30,16 @@
   .aboutContainer {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .aboutContainer > div {
+    width: 40%;
+    padding: 24px 24px 24px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    /* align-items: center; */
+  }
+  .sectionTitle {
+    text-align: left;
   }
 }

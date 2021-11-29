@@ -1,5 +1,9 @@
 @import "../styling/variables.css";
 
+.sectionTitle {
+  text-align: center;
+}
+
 .sectionTitle span {
   color: var(--brandSecondaryColor);
 }
@@ -49,5 +53,8 @@
   }
   .servicesIndividual {
     width: 20%;
+  }
+  .sectionTitle {
+    text-align: left;
   }
 }

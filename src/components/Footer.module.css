@@ -2,12 +2,24 @@
 
 .footerContainer {
   display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  /* margin-top: 10rem; */
+  /* justify-content: space-between; */
+  /* padding: 24px 24px; */
+  background-color: #546a79;
+  color: whitesmoke;
+}
+
+.footerMain {
+  display: flex;
   /* position: absolute;
   bottom: 0; */
   width: 100%;
   /* margin-top: 10rem; */
   justify-content: space-between;
   /* padding: 24px 24px; */
-  background-color: #36454f;
-  color: whitesmoke;
 }

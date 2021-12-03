@@ -615,6 +615,7 @@ pre tt:after {
 .pageWidth {
   max-width: 800px;
   text-align: center;
+  padding: 24px 24px 24px 24px;
 }
 
 .subSection {
@@ -633,6 +634,7 @@ p {
 /*events page --------------------------------------------------------------------------------------*/
 .popups {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
   margin: 1rem 0rem;
@@ -646,6 +648,7 @@ p {
   padding: 10px 10px;
   color: var(--brandFont);
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .popup-image {
@@ -662,6 +665,11 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media (min-width: 768px) {
+  .popups {
+    flex-direction: row;
+  }
 }
 
 /* contacts page ---------------------------------------------------------------------------------*/
